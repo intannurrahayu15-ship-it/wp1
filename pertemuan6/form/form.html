@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <form action="simpan.html" method="post">
+        <fieldset>
+            <legend>Biodata</legend>
+            Nama : <input type="text"> <br>
+            Tempat Lahir : <input type="text"> <br>
+            Tanggal Lahir: <input type="date"> <br>
+            Alamat : <input type="text"> <br>
+            email : <input type="text"> <br>
+            password : <input type="password">  <br>
+            pasfoto : <input type="file"> <br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Hobi</legend>
+            <input type="radio" name="Hobi" id="memancing" value="memancing"> <label for="memancing">Memancing</label><br>
+            <input type="radio" name="Hobi" id="berenang" value="berenang"> <label for="berenang">Berenang</label><br>
+            <input type="radio" name="Hobi" id="tidur" value="tidur"> <label for="tidur">Tidur</label><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Makanan Favorit</legend>
+            <input type="checkbox" name="Makanan" id="sate" value="sate"> <label for="sate">Sate</label><br>
+            <input type="checkbox" name="Makanan" id="nasgor" value="nasgor"> <label for="nasgor">Nasgor</label><br>
+            <input type="checkbox" name="Makanan" id="bakso" value="bakso"> <label for="bakso">Bakso</label><br>
+            <input type="checkbox" name="Makanan" id="mie_ayam" value="mie_ayam"> <label for="mie_ayam">Mie_ayam</label><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Pekerjaan Orang Tua</legend>
+            <select name="" id="">
+                <option value="Petani">Petani</option>
+                <option value="Pekebun">Pekebun</option>
+                <option value="Guru">Guru</option>
+                <option value="Pegawai Swata">Pegawai Swata</option>
+            </select> 
+        </fieldset>
+
+        <textarea name="Keterangan" id="" cols="30" rows="10"></textarea><br>
+
+        <input type="submit" value="Simpan">
+    </form>
+</body>
+</html>
