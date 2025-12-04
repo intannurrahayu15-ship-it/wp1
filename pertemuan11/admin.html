@@ -6,62 +6,77 @@
     <title>admin</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="sidebar.css">
+    <link rel="stylesheet" href="topbar.css">
     
 </head>
 <body>
-
-    <div class="sidebar">
-
-        <!-- PROFIL -->
+    <div>
+        <div class="sidebar">
         <div class="profil">
-            <div class="foto">
-                <img src="user.jpg" alt="" width="125">
-            </div>
-            <div class="detail">
-                <h2>Intan</h2>
-                <h4>Admin</h4>
-            </div>
-        </div>
-
-        <!-- MENU -->
-        <div class="menu">
-            <ul>
-                <li class="menu-item">
-                    <a href="beranda.html">
-                        <i class="fas fa-home"></i>
-                        <span>Beranda</span>
-                    </a>
-                </li>
-
-                <li class="menu-item">
-                    <a href="profil.html">
-                        <i class="fas fa-user"></i>
-                        <span>Profil</span>
-                    </a>
-                </li>
-
-                <li class="menu-item">
-                    <a href="krs.html">
-                        <i class="fas fa-book"></i>
-                        <span>Kartu Rencana Studi</span>
-                    </a>
-                </li>
-
-                <li class="menu-item">
-                    <a href="nilai.html">
-                        <i class="fas fa-chart-line"></i>
-                        <span>Nilai</span>
-                    </a>
-                </li>
-
-                <li class="menu-item">
-                    <a href="login.html">
-                        <i class="fas fa-sign-out-alt"></i>
-                        <span>Logout</span>
-                    </a>
-                </li>
-            </ul>
-        </div>
+        <div class="foto">
+    <img src="user.jpg" alt="" width="125px">
     </div>
+    <div class="detail">
+        <h2 style="text-align: center;">Username</h2>
+        <h4 style="text-align: center;">Admin</h4>
+    </div> 
+    </div> <!--profil end-->
+        <div class="menu">
+    <ul>
+        <li class="menu-item">
+            <a href="beranda.html">
+            <span><i class="fas fa-home"></i></span>
+            <span>Beranda</span>
+            </a>
+        </li>
+        <li class="menu-item">
+            <a href="profil">
+                <span><i class="fas fa-user"></i></span>
+                <span>Profil</span>
+            </a>
+        </li>
+        <li class="menu-item">
+            <a href="krs.html">
+                <span><i class="fas fa-chart-line"></i></span>
+                <span>Kartu Rencana Studi</span>
+            </a>
+        </li>
+        <li class="menu-item">
+            <a href="nilai.html">
+                <span><i class="fas fa-chart-line"></i></span>
+                <span>Nilai</span>
+            </a>
+        </li>
+        <li class="menu-item">
+            <a href="login.html">
+                <span><i class="fas fa-home"></i></span>
+                <span>Logout</span>
+            </a>
+        </li>
+    </ul>
+    </div>  <!--menu end--> 
+    <div class="status.bar">
+        Kamis, 4 Desember 2025-10:14:00
+    </div>
+    </div>
+    </div>
+
+        <div class="kanan">
+            <div class="topbar">
+                <div class="user-menu">
+                    <img src="user.jpg" alt="foto" width="32">
+                    <span>Username</span>
+                    <div class="user-menu-box">
+                    <ul>
+                        <li><a href="">profil</a></li>
+                        <li><a href="">pengaturan</a></li>
+                        <li><a href="">Logout</a></li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 </body>
 </html>
