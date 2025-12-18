@@ -8,13 +8,31 @@
 
 .kanan{
     margin-left: 250px;
+    background-color: rgb(83, 98, 231);
 }
+
+.main{
+    position: relative;
+    top: 64px;
+    width: 100%;
+    background-color: blueviolet;
+}
+
 .profil{
     text-align: center;
     border-bottom: 1px solid white;
     margin: 20px 5px 5px;
     padding-bottom: 10px;
 }
+
+.sidebar>.profil>.foto>.img{
+    padding: 75%;;
+}
+
+.sidebar>. menu{
+    padding: 0;
+}
+
 
 .profil img{
     border-radius: 50%;
