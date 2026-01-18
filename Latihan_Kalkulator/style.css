@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #1f1f1f, #2e2e2e);
+    color: #f1f1f1;
+    padding: 30px;
+}
+
+/* Judul */
+h2 {
+    color: #00ffd5;
+    margin-bottom: 15px;
+}
+
+/* Input */
+input {
+    padding: 8px;
+    margin-right: 8px;
+    width: 140px;
+    background-color: #3b3b3b;
+    color: #ffffff;
+    border: 1px solid #00ffd5;
+    border-radius: 4px;
+}
+
+input::placeholder {
+    color: #bdbdbd;
+}
+
+/* Tombol umum */
+button {
+    padding: 8px 14px;
+    margin: 6px 4px 6px 0;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    transition: 0.2s;
+}
+
+button:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+/* Tombol operasi */
+button:nth-of-type(1) { background-color: #ff5252; } /* + */
+button:nth-of-type(2) { background-color: #4caf50; } /* - */
+button:nth-of-type(3) { background-color: #2196f3; } /* x */
+button:nth-of-type(4) { background-color: #9c27b0; } /* ÷ */
+
+/* Tombol aksi */
+button:nth-of-type(5) {
+    background-color: #ff9800;
+    color: black;
+}
+
+button:nth-of-type(6) {
+    background-color: #607d8b;
+}
+
+/* Area hasil */
+#hasil {
+    margin-top: 20px;
+    background: linear-gradient(135deg, #2fd3c7, #20b2aa);
+    height: 220px;
+    padding: 15px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #003333;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    overflow-y: auto;
+}
+
+/* Teks hasil */
+#hasil p {
+    margin: 6px 0;
+}

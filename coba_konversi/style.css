@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(160deg, #1e90ff, #0077cc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    background: white;
+    width: 380px;
+    height: 600px; 
+    padding: 25px;
+    border-radius: 18px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.3);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: #1e90ff;
+    margin-bottom: 10px;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 10px;
+}
+
+.menu-btn {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+    background: #e0f0ff;
+    color: #004a99;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.menu-btn.active {
+    background: #1e90ff;
+    color: white;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.select-group {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+select {
+    flex: 1;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.select-group span {
+    font-weight: bold;
+    color: #1e90ff;
+}
+
+.btn-konversi {
+    margin-top: 10px;
+    width: 100%;
+    padding: 12px;
+    background: #1e90ff;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-konversi:hover {
+    background: #156fc0;
+}
+
+.hasil {
+    margin-top: 10px;
+    background: #f2f8ff;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.hasil h2 {
+    color: #1e90ff;
+}
+
+.riwayat {
+    margin-top: 18px;
+    background: #f2f8ff;
+    padding: 12px;
+    border-radius: 12px;
+    max-height: 160px;   
+    overflow-y: auto;   
+}
+
+.riwayat-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.riwayat h3 {
+    margin: 0;
+    font-size: 14px;
+    color: #1e90ff;
+}
+
+.btn-clear {
+    background: #ff4d4d;
+    border: none;
+    color: white;
+    padding: 4px 8px;
+    font-size: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn-clear:hover {
+    background: #cc0000;
+}
+
+#listRiwayat {
+    list-style: none;
+    padding: 0;
+    margin-top: 8px;
+}
+
+#listRiwayat li {
+    background: white;
+    padding: 6px;
+    border-radius: 6px;
+    font-size: 13px;
+    margin-bottom: 6px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}

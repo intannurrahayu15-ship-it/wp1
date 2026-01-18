@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Konversi Satuan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="card">
+    <h1>Konversi Satuan</h1>
+
+    <div class="menu">
+        <button class="menu-btn active" onclick="setTab('panjang', this)">Panjang</button>
+        <button class="menu-btn" onclick="setTab('massa', this)">Massa</button>
+        <button class="menu-btn" onclick="setTab('suhu', this)">Suhu</button>
+        <button class="menu-btn" onclick="setTab('volume', this)">Volume</button>
+        <button class="menu-btn" onclick="setTab('luas', this)">Luas</button>
+    </div>
+
+    <input type="number" id="nilai" placeholder="Masukkan nilai">
+
+    <div class="select-group">
+        <select id="dari"></select>
+        <span>→</span>
+        <select id="ke"></select>
+    </div>
+
+    <button class="btn-konversi" onclick="konversi()">Konversi</button>
+
+    <div class="hasil">
+        <p>Hasil</p>
+        <h2 id="hasil">-</h2>
+    </div>
+
+    <!-- RIWAYAT -->
+    <div class="riwayat">
+        <div class="riwayat-header">
+            <h3>Riwayat</h3>
+            <button onclick="clearRiwayat()">Clear</button>
+        </div>
+
+        <div class="riwayat-list">
+            <ul id="listRiwayat"></ul>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
