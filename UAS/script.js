@@ -8,7 +8,7 @@ btnWarna.addEventListener("click", function () {
     box.style.color = "white";
 });
 
-// SOAL 2
+// SOAL 3
 // Menambahkan elemen dan atribut menggunakan JavaScript
 const btnTambah = document.getElementById("btnTambah");
 const container = document.getElementById("container");
@@ -20,7 +20,7 @@ btnTambah.addEventListener("click", function () {
     container.appendChild(p);
 });
 
-// SOAL 3
+// SOAL 4
 // Function hitung 
 function hitung(operasi, a, b) {
     let hasil;
